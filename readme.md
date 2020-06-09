@@ -1,7 +1,3 @@
-[TOC]
-
----
-
 # Introduction to the Data
 
 Here we provide the [galaxy catalog](./Data/zcosmos_galaxy.dat) and [group catalog](./data/zcosmos_group.dat) in COSMOS volume based on zCOSMOS[ [Lily at al. 2009][1]] spectroscopic survey and COSMOS2015[[Laigle at al. 2015][2]] photometric catalog.
@@ -50,17 +46,5 @@ The groups are sorted with ascending group id, which means the group id equals r
 8. `GroupTag`: 0 for groups with only spectroscopic members, 1 for groups with photometric central and spectroscopic member, and 2 for groups with only one photometric member;
 9. `Richness`: number of member galaxies in a group.
 
-
-# Reference
-
 [1]: https://iopscience.iop.org/article/10.1088/0067-0049/184/2/218	"THE zCOSMOS 10k-BRIGHT SPECTROSCOPIC SAMPLE"
 [2]: https://iopscience.iop.org/article/10.3847/0067-0049/224/2/24	"THE COSMOS2015 CATALOG: EXPLORING THE 1 < z < 6 UNIVERSE WITH HALF A MILLION GALAXIES"
-
-
-
-
-
-
-
-
-
