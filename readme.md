@@ -5,9 +5,9 @@ Here we provide the galaxy catalog and group catalog in COSMOS volume based on z
 
 ## Galaxy selection criteria:
 
-1. $I_{\rm AB} < 22.5$;
-2. $0.1 \le z \le 1.0$
-3. $\rm 149.617 < RA < 150.603$, $\rm 1.767 < Dec < 2.703$
+1. I_AB < 22.5;
+2. 0.1 <= z <= 1.0
+3. 149.617 < RA < 150.603, 1.767 < Dec < 2.703
 4. Exclude confidence class: 0, 1.1, 2.1, and 9.1 [[Lily at al. 2009][1]]
 
 # Data format
@@ -25,9 +25,9 @@ The galaxies are sorted with ascending galaxy id, so the galaxy id equals row in
 5. `RA`: right ascension (J2000) in degrees;
 6. `Dec`: declination (J2000) in degrees;
 7. `z`: photometric redshift for confidence class = -1, spectroscopic redshift otherwise;
-8. `StellarMass`: 10-based logarithm of the galaxy in units of $\rm M_{\odot}$
+8. `StellarMass`: 10-based logarithm of the galaxy in units of M_sun
 9. `tag`: 1 for central, 0 for satellite;
-10. `CC`: redshift conﬁdence class, -1 for photometric galaxies, others see  [Lily at al. 2009][1];
+10. `CC`: redshift confience class, -1 for photometric galaxies, others see  [Lily at al. 2009][1];
 
 ## Group catalog
 
@@ -38,10 +38,10 @@ The groups are sorted with ascending group id, which means the group id equals r
 1. `GroupID`: a unique ID of each group in the group catalog;
 2. `cenID`: galaxy ID of the central galaxy of a group;
 3. `cenID2015`: central galaxy ID in [Laigle at al. 2015][2];
-4. `RA_avg`: Right Ascension (J2000) of the group center in degrees, deﬁned as the average RA of member galaxies weighted by the stellar mass;
-5. `dec_avg`: Declination (J2000) of the group center in degrees, deﬁned as the average Dec of member galaxies weighted by the stellar mass;
-6. `z_avg`: redshift of the group, deﬁned as the average redshift of member galaxies with spectroscopic redshift weighted by the stellar mass;
-7. `HaloMass`: 10-based logarithm of the halo mass of a group in units of $\rm M_{\odot}$;
+4. `RA_avg`: Right Ascension (J2000) of the group center in degrees, defied as the average RA of member galaxies weighted by the stellar mass;
+5. `dec_avg`: Declination (J2000) of the group center in degrees, defied as the average Dec of member galaxies weighted by the stellar mass;
+6. `z_avg`: redshift of the group, defied as the average redshift of member galaxies with spectroscopic redshift weighted by the stellar mass;
+7. `HaloMass`: 10-based logarithm of the halo mass of a group in units of M_sun;
 8. `GroupTag`: 0 for groups with only spectroscopic members, 1 for groups with photometric central and spectroscopic member, and 2 for groups with only one photometric member;
 9. `Richness`: number of member galaxies in a group.
 
