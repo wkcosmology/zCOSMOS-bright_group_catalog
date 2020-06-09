@@ -1,8 +1,7 @@
 # Introduction to the Data
 
-Here we provide the [galaxy catalog](./Data/zcosmos_galaxy.dat) and [group catalog](./data/zcosmos_group.dat) in COSMOS volume based on zCOSMOS[ [Lily at al. 2009][1]] spectroscopic survey and COSMOS2015[[Laigle at al. 2015][2]] photometric catalog.
+Here we provide the galaxy catalog and group catalog in COSMOS volume based on zCOSMOS[[Lily at al. 2009][1]] spectroscopic survey and COSMOS2015[[Laigle at al. 2015][2]] photometric catalog.
 
-The [demo code](./DemoCode/script.py) shows the usage of the group catalog with python.
 
 ## Galaxy selection criteria:
 
